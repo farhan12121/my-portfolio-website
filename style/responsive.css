@@ -1,3 +1,6 @@
+/* Responsive for Mobile Device */
+
+
 @media screen and (max-width:576px) {
     nav  {
         flex-direction: column;
@@ -51,5 +54,20 @@
 
     .footer-column {
         width: 80%;
+    }
+}
+/* resposive for medium device */
+@media screen and (min-width:576.1px) and (max-width:992px ) { 
+
+    .all {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section-des2{
+        padding: 20px 20px;
+    }
+    .skills-continer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
